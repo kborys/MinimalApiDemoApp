@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApiDemo", "MinimalApiDemo\MinimalApiDemo.csproj", "{7A8FAE1D-102C-4D8A-82E5-67519BA5FF00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalApiDemo", "MinimalApiDemo\MinimalApiDemo.csproj", "{7A8FAE1D-102C-4D8A-82E5-67519BA5FF00}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "UserDB", "UserDB\UserDB.sqlproj", "{FBA34CA0-7377-40B7-9D10-E242F5D68EC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{78D36629-7283-4EF6-8CED-F5A164ADA8BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{FBA34CA0-7377-40B7-9D10-E242F5D68EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBA34CA0-7377-40B7-9D10-E242F5D68EC4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FBA34CA0-7377-40B7-9D10-E242F5D68EC4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{78D36629-7283-4EF6-8CED-F5A164ADA8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D36629-7283-4EF6-8CED-F5A164ADA8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D36629-7283-4EF6-8CED-F5A164ADA8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D36629-7283-4EF6-8CED-F5A164ADA8BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
