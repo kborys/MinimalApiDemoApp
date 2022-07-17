@@ -18,4 +18,8 @@
     <None Include="E:\repos\MinimalApiDemoApp\MinimalApiDemo\.editorconfig" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
